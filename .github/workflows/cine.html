@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Control Remoto</title>
+    <!-- Font Awesome (CDN) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(to right, #ece9e6, #ffffff);
+            text-align: center;
+            padding: 50px;
+        }
+
+        h1 {
+            color: #333;
+            margin-bottom: 40px;
+        }
+
+        .contenedor {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 20px;
+            max-width: 900px;
+            margin: 0 auto;
+        }
+
+        .boton {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px; /* espacio entre icono y texto */
+            padding: 15px 20px;
+            font-size: 16px;
+            color: #fff;
+            background: linear-gradient(135deg, #007BFF, #00C6FF);
+            border: none;
+            border-radius: 12px;
+            text-decoration: none;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+
+        .boton:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 6px 12px rgba(0,0,0,0.3);
+        }
+
+        .boton i {
+            font-size: 20px; /* tamaño del icono */
+        }
+    </style>
+</head>
+<body>
+    <h1>🌐 Esto es cine... 🚬</h1>
+
+    <div class="contenedor">
+        <a href="https://www.netflix.com/browse" class="boton" target="_blank">
+				<i class="fa-solid fa-film"></i> Netflix
+        </a>
+        <a href="https://www.youtube.com" class="boton" target="_blank">
+				<i class="fa-brands fa-youtube"></i> YouTube
+        </a>
+        <a href="https://play.hbomax.com/" class="boton" target="_blank">
+				<i class="fa-solid fa-film"></i> HBOMax
+        </a>
+		<a href="https://www.disneyplus.com/es-419/home" class="boton" target="_blank">
+				<i class="fa-solid fa-film"></i> DisneyPlus
+		</a>
+		<a href="https://www.cuevana.is/" class="boton" target="_blank">
+				<i class="fa-solid fa-film"></i> Cuevana
+		</a>
+		<a href="https://www.primevideo.com/" class="boton" target="_blank">
+				<i class="fa-solid fa-film"></i> PrimeVideo
+		</a>
+		<a href="	https://www1.pelisforte.se/portal002" class="boton" target="_blank">
+				<i class="fa-solid fa-film"></i> PelisForte
+		</a>
+		
+		</div>
+	<h1>🌐 Canales... 📺 </h1>
+
+		<div class="contenedor">
+			
+			<a href="http://dragonball.sullca.com/" class="boton" target="_blank">
+				<i class="fa-solid fa-film"></i> DragonBall
+			</a>
+			
+			<a href="https://simpsonizados.xyz/" class="boton" target="_blank">
+				<i class="fa-solid fa-film"></i> Los Simpson's
+			</a>		
+			
+			<a href="https://tele-libre.com/" class="boton" target="_blank">
+				<i class="fa-brands fa-youtube"></i> TeleLibre
+			</a>
+			
+			<a href="https://librefutboltv.su/" class="boton" target="_blank">
+				<i class="fa-solid fa-film"></i> FutbolLibre
+			</a>
+			
+			<a href="https://mitelefe.com/vivo/" class="boton" target="_blank">
+				<i class="fa-brands fa-youtube"></i> Telefe en vivo
+			</a>
+			
+			<a href="https://drive.google.com/drive/folders/1_kVXvYdSLzE0quVtq8BPV0r9-4x92y41" class="boton" target="_blank">
+				<i class="fa-brands fa-drive"></i> La cueva
+			
+			</a>
+		</div>
+
+</body>
+</html>
